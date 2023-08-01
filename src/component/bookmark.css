@@ -1,0 +1,94 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
+.head{
+    text-align: center;
+    justify-content: center;
+    padding-top: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.des{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    font-weight: bolder;
+}   
+.s1{
+    background-color: beige;
+}
+.card{
+    margin: 23px;
+    display: grid;
+    grid-template-columns: repeat(1,1)fr;
+}
+.equal-height {
+  display: flex;
+}
+
+.equal-height .card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.navbar-text {
+    font-family: "math Sans", sans-serif;
+    font-size: medium;
+    padding-top: 94px;
+  }
+
+/* .equal-height .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.equal-height .card-title,
+.equal-height h4,
+.equal-height p,
+.equal-height ul {
+  flex: 1;
+  margin: 0;
+} */
+/* bookmark.css */
+
+.cardtitle {
+    font-size: 48px;
+    text-align: center;
+    font-family:cursive;
+    
+  }
+  
+  .card-body ul {
+    font-size: 14px;
+  }
+  
+  .card-body p {
+    font-size: 14px;
+  }
+  
+  .card-body h4 {
+    font-size: 16px;
+  }
+  
+  .card-body button {
+    font-size: 14px;
+  }
+  /* bookmark.css */
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card:hover .card-body {
+    background-color: #f8f8f8;
+  }
+  
+  .card-body {
+    padding: 16px;
+    transition: background-color 0.3s ease;
+  }
+  

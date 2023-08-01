@@ -1,0 +1,59 @@
+.load {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d9ebfd8c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .load img {
+    width: 600px;
+    height: 600px;
+  }
+    
+    /* .loading {
+      display: flex;
+      align-items: center;
+      margin-top: 10px; 
+    } */
+    
+    /* .loading span {
+      width: 25px;
+      height: 25px;
+      margin-right: 5px; 
+      background-color: #ffd957;
+      border-radius: 50%;
+      display: inline-block;
+      animation-name: dots;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    } */
+    
+    /* .loading span:nth-child(2) {
+      background-color: #57ffa0;
+      animation-delay: 0.4s;
+    }
+    
+    .loading span:nth-child(3) {
+      background-color: #ff8b57;
+      animation-delay: 0.8s;
+    }
+    
+    @keyframes dots {
+      50% {
+        opacity: 0;
+        transform: scale(0.7) translate(10px);
+      }
+    } */
+    
+    .countdown {
+      text-align: center;
+      font-size: 18px;
+      color: #333;
+      font-weight: bolder;
+      font-size: 25px;
+      margin-bottom: 50px;
+    }

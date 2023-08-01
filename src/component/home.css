@@ -1,0 +1,395 @@
+.homepage {
+  background-color:rgb(142, 194, 243)
+}
+
+.box {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 34px;
+    
+    /* border: 10px solid blue; */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 1300px;
+    margin-left: 59.5px;
+    margin-right: 59.5px;
+    /* transition: transform 0.3s ease-in-out; */
+    /* transform: translateX(-100%); */
+  }
+  .box h2 {
+    color: #007bff;
+    font-size: 44px;
+    margin-bottom: 10px;
+  }
+  
+  .box h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .box pre {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .box button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .box button:hover {
+    transform: rotate(45deg);
+  }
+  
+  .box a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .box a:hover {
+    color: #0056b3;
+  }
+  
+  .box p {
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+    animation: fade-in 1s ease-in-out;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateX(80px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(30px);
+    }
+  }
+  
+  
+  
+.game-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+  }
+  .game-box {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .description {
+    display: none;
+  }
+  
+  .game-box:hover .description {
+    display: block;
+  }
+  
+  
+.blog{
+    display: grid;
+    /* margin-bottom: 20px; */
+    grid-template-columns: repeat(3, 1fr);
+}
+.blog-slider .carousel-item {
+    height: 300px;
+  }
+  .carousel-content {
+    text-align: center;
+    color: black;
+    padding: 20px;
+  }
+  
+  .carousel-image {
+    text-align: left;
+  }
+  
+  .blog-image {
+    max-width: 10%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .carousel-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+  }
+  
+  .caption-title {
+    font-size: 34px;
+    color: #0056b3;
+    margin-bottom: 90px;
+  }
+  
+  .caption-description {
+    font-size: 20px;
+    margin-bottom: 19px;
+    color: #0056b3;
+    margin-left: 34px;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+  }
+  
+  .carousel-control-prev-icon:before,
+  .carousel-control-next-icon:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+  }
+  
+  .carousel-indicators li {
+    background-color: rgb(19, 18, 18);
+  }
+  
+    
+.blog-image{
+    width: 200px; /* Adjust the desired width */
+  height: 200px; /* Adjust the desired height */
+  object-fit: cover;
+  margin-left: 210px;
+}
+
+.row{
+  display: grid;
+    /* margin-bottom: 20px; */
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    margin-left: -15px;
+  margin-right: -15px;
+    padding-top: 45px;
+}
+  
+/* ResourceList.css */
+.container {
+  padding: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: white;
+  padding-bottom: 15px;
+  /* height: 450px; */
+}
+
+.card {
+  padding: 0px;
+  
+}
+.card-body{
+  padding-top: 5px;
+  justify-content: center;
+}
+.card-img-top {
+  width: 50px;
+  height: 250px;
+  /* height: auto; */
+  margin-left: 70px;
+  padding-top: 34px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 53px;
+
+}
+
+
+
+
+  
+  /* Add this CSS to your global styles or a separate CSS file */
+footer {
+  padding-top: 30px;
+}
+
+h3 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+form .form-control {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+form button.btn-primary {
+  width: 100%;
+}
+
+  /* Remove margin and padding from the container surrounding the resources */
+  .resources-container {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  /* Remove margin and padding from the container surrounding the footer */
+  .footer-container {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+/* .searchbar{} */
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.searchbox {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.spinner{
+  padding: 10px;
+}
+.spinner h1{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.spinner .spinner-border{
+  margin-bottom: 10px;
+}
+
+/* inside search box */
+
+.searchbox {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 23px;
+  transition: transform 0.3s ease;
+}
+/* .searchbox:hover{
+  transform: scale(1.0);
+} */
+
+
+.searchbox h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.searchbox h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.searchbox p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.searchbox button.bookmark-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.searchbox button.bookmark-button:hover{
+  background-color: #0056b3;
+}
+
+.searchbox .spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.searchbox .spinner-border {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 10px;
+}
+
+.searchbox .spinner-container h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Add any additional styles as needed for the content within the searchbox */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  display: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+#btn-back-to-top::before {
+  content: '\2191';
+  font-size: 30px;
+  color: red;
+}

@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": 1689779962880,
+      "name": "Jagan Kumar Patra",
+      "email": "nice@gmail.com",
+      "password": "12"
+    }
+  ],
+  "bookmarks": [
+    {
+      "word": "hello",
+      "def": [
+        "an expression of goodwill upon meeting"
+      ],
+      "ants": [
+        [
+          "adieu",
+          "bon voyage",
+          "congé",
+          "farewell",
+          "Godspeed",
+          "good-bye"
+        ]
+      ],
+      "userId": 1689779962880,
+      "id": 15
+    }
+  ]
+}
