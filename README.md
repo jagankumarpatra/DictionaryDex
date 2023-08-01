@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# DictionaryApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h1>Team Name: Mern Master</h1> <br>
+<h2>Team Lead: Ipsit Spandan Mohanty (20beia58)</h2>
+Team Members: <ol>
+              <li>Jagan Kumar Patra (20becd70)</li>
+              <li>Dibyajyoti Satpathy (20beid32)</li>
+              <li>Sekhar Suman Sahoo (20beea86)</li>
+              <li>Asutosh Sahoo (20becc52)</li>
+             <li>Anwesh Moharana (20becb04)</li>
+              </ol>
 
-In the project directory, you can run:
+<h1>Topic: -Dictionary App</h1>
+Description: -contain meanings, examples, synonyms, and antonyms of the searched word and related words. Add the bookmark the word functionality. 
 
-### `npm start`
+Pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. SignUp Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![image](https://github.com/ipsit33/DictionaryApp/assets/85749577/035305b6-f7b9-4cb7-bf15-23166dfe8c0a)
 
-### `npm test`
+2. Login Page
+   
+![image](https://github.com/ipsit33/DictionaryApp/assets/85749577/0747339d-0783-43da-a801-b7c7b41d8a85)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+3. HomePage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="956" alt="image" src="https://github.com/ipsit33/DictionaryApp/assets/94950001/367d7f87-6bd9-4bc5-81fe-56ca3db787d9">
+<img width="960" alt="image" src="https://github.com/ipsit33/DictionaryApp/assets/94950001/44576c8c-5e41-4587-87da-d54c1175a2c1">
+<img width="959" alt="image" src="https://github.com/ipsit33/DictionaryApp/assets/94950001/3ada4360-80a2-4e62-8d01-da1063d100b4">
+<img width="956" alt="image" src="https://github.com/ipsit33/DictionaryApp/assets/94950001/fa52fe9f-99df-4265-a115-772b9068382b">
+<img width="956" alt="image" src="https://github.com/ipsit33/DictionaryApp/assets/85749577/ef22e1e7-afce-467e-809f-239d0d676bd4">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+4. Search Implementation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="960" alt="image" src="https://github.com/ipsit33/DictionaryApp/assets/94950001/410a6f26-7c03-4b02-afaf-0c88a489ddcd">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Bookmark Page
+   
+<img width="959" alt="image" src="https://github.com/ipsit33/DictionaryApp/assets/94950001/4e7048de-24f3-4a30-b5ab-12c0ca0b935c">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+6. Navbar
 
-## Learn More
+<img width="959" alt="image" src="https://github.com/ipsit33/DictionaryApp/assets/94950001/0c7ad56f-36dc-47e3-a727-d9e328641fb0">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
